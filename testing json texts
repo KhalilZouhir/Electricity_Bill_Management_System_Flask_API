@@ -1,0 +1,50 @@
+{
+    "user_id":9786,
+    "firstname":"khalil",
+    "lastname":"zouhir",
+    "address":"gzeragezg",
+    "phone_number":642661,
+    "email":"zfefzfezfe@zefze"
+}
+#################
+{
+    "meter_id":9868,
+    "meter_location":"khaezlil",
+    "user_id":9786
+
+}
+#################
+
+{
+    "meter_id": 9868,
+    "bill_id": 74,
+    "user_id": 986,
+    "bill_date": "2023-12-05",
+    "due_date": "2023-12-06",
+    "total_amount": 98.00,
+    "payment_status": 1
+}
+#################
+
+
+{
+    "meter_id": 9868,
+    "reading_id": 7554,
+    "reading_value": 98456,
+    "reading_date": "2023-12-05"
+}
+
+
+
+#################
+http://127.0.0.1:5000/api/electricity_reading/all :
+{
+    "electricity_reading": [
+        {
+            "meter_id": 98.0,
+            "reading_date": "Tue, 05 Dec 2023 00:00:00 GMT",
+            "reading_id": 74,
+            "reading_value": "Wed, 06 Dec 2023 00:00:00 GMT"
+        }
+    ]
+}
